@@ -1,5 +1,1 @@
-The NGCF-ITA code is an implementation associated with the paper entitled "Enhancing Recommender Systems through Imputation and Social-Aware Graph Convolutional Neural Network". The code encompasses preprocessing steps, where an imputation matrix is constructed utilizing a method outlined in the "Construct Imputation Matrix.ipynb" notebook. This imputation matrix is established based on the interaction matrix of user-item interactions.
 
-Upon completion of the preprocessing steps, the code transitions to the recommendation phase in the "NGCF-ITA code.ipynb" notebook. During this phase, recommendations are generated utilizing the provided imputation matrix, alongside interaction and trust matrices. The recommendation process harnesses the graph convolutional neural network architecture to enrich the quality of recommendations by integrating imputed values and social relationships among users.
-
-In essence, the NGCF-ITA code furnishes a platform for implementing and experimenting with the proposed method delineated in the research paper. This enables researchers and practitioners to delve into and assess its efficacy in recommender system applications.
